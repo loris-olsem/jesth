@@ -249,7 +249,7 @@ sections = document.get_all("user")
 # Specs of the Dict Section
 The specs for a Dictionary Section are mostly aligned with Python specs. For example, a Jesth Integer follows exactly the definition of Python Integer. 
 
-> **Note:** The Jesth library allows the customization of each type of data as well in the context of parsing or in the context of rendering. This customization is made via the [ValueConverter](#the_valueconverter_object) object
+> **Note:** The Jesth library allows the customization of each type of data as well in the context of parsing or in the context of rendering. This customization is made via the [ValueConverter](#the-valueconverter-object) object
 
 ## Scalars
 Jesth supports integers (base 10, hexadecimal, octal, binary), float (approximate binary floating-point, fixed-precision decimal floating-point), complex numbers, and booleans.
